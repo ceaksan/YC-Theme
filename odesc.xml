@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Yoldan Çıktım</ShortName>
+  <Description>Ekolojik ve Yavaş Yaşam Deneyimleri</Description>
+  <Image height="16" width="16" type="image/x-icon">http://yoldanciktim.com/favicon.ico</Image>
+  <Url type="text/html" method="get"
+       template="https://yoldanciktim.com/?s={searchTerms}"/>
+  <Language>tr-tr</Language>
+</OpenSearchDescription>

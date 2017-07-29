@@ -1,0 +1,274 @@
+html { font-family: 'Montserrat', 'Roboto', Trebuchet, sans-serif; overflow-y: scroll; }
+body { overflow-x: hidden;}
+  body .container { max-width: 1320px; }
+
+#sidenav-overlay { z-index: 996; }
+nav ul a,
+nav .brand-logo { color: #444; }
+
+h1,
+h2,
+h3,
+h4 { font-weight: 500; }
+h2 { font-size: 15pt; }
+h3 { font-size: 12pt; }
+  h2 a, h3 a, header nav a, aside a { color: #fff; }
+
+.enrty, p { line-height: 2rem; }
+
+figure { margin: 0; }
+
+iframe[src*="wikiloc"],
+iframe[src*="maps"] { margin: 0 0 20px 0; pointer-events: none; }
+
+blockquote { border-left-color: #000; }
+
+.button-collapse { color: #26a69a; }
+
+.parallax-container { min-height: 380px; line-height: 0; height: auto; color: rgba(255,255,255,.9); }
+  .parallax-container .section { width: 100%; }
+
+.icon-block { padding: 0 15px; }
+  .icon-block .material-icons { font-size: inherit; }
+
+header { }
+  header nav { background: rgba(0, 0, 0, .9); z-index: 9999; box-shadow: none; }
+    header nav #logo-container {
+      background: url('../../assets/img/brand/yoldan-ciktim_logo-white.png') no-repeat;
+      background-position: 0 5px;
+      background-size: cover;
+      width: 200px;
+      margin: 5px 0 0 0;
+      height: 52px;
+    }
+      header nav #logo-container a { display: block; text-indent: -999em; }
+      header nav a { font-size: .9rem; }
+        header nav .button-collapse { display: block; color: #fff; margin-left: 0; }
+        header .parallax-container { display: none; }
+        .page header .parallax-container { display: block !important; }
+
+section h4 { font-size: 11pt; }
+section#search { display: none; }
+section#search .close { color: #444; }
+
+      /* label color */
+         .input-field label {
+           color: #000;
+         }
+         /* label focus color */
+         .input-field input[type]:focus + label,
+         .input-field textarea.materialize-textarea:focus + label {
+           color: #000;
+         }
+         /* label underline focus color */
+         .input-field input[type]:focus,
+         .input-field textarea.materialize-textarea:focus {
+           border-bottom: 1px solid #000;
+           box-shadow: 0 1px 0 0 #000;
+         }
+         /* valid color */
+         .input-field input[type].valid {
+           border-bottom: 1px solid #000;
+           box-shadow: 0 1px 0 0 #000;
+         }
+         /* invalid color */
+         .input-field input[type].invalid {
+           border-bottom: 1px solid #000;
+           box-shadow: 0 1px 0 0 #000;
+         }
+         /* icon prefix focus color */
+         .input-field .prefix.active {
+           color: #000;
+         }
+
+main{}
+  main .row aside.col { background-size: cover !important; }
+    main .row .col.featured-post { }
+    main .row .col.latest-post { }
+      main .row .col.latest-post h4 { margin-left: -10px; }
+    main .row .social-media-links { padding-left: 20px; }
+    main .row .social-media-links h6 {
+      display: inline-block;
+      position: relative;
+      left: 17px;
+      width: 100px;
+      height: 12px;
+      margin-top: 150px;
+      text-align: center;
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+      -moz-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+      -webkit-transform-origin: 0 0;
+      transform-origin: 0 0;
+    }
+    main .row h3, main .row h4 { }
+    span.line {
+      background: rgba(0, 0, 0, .1);
+      width: 30px;
+      height: 15px;
+      display: block;
+      margin-top: -10px;
+    }
+    section .row h3 { font-size: 10pt; font-weight: 500; color: #ddd; }
+    main .row .social-media-links .collection{ border: none; }
+      main .row .social-media-links .collection-item { border: none; font-size: 15pt; }
+        main .row .social-media-links a.collection-item { color: #000; }
+          main .row .social-media-links a.collection-item span { display: none; }
+
+    .video-container { margin-bottom: 20px; }
+  .innerBox .adsbygoogle { margin-top: -25px; }
+
+    #essential-food .col:first-child,
+    #essential-cover .col:first-child { padding-right: 0; }
+    #essential-food .collection,
+    #essential-cover .collection { padding-left: 0; }
+
+    .card .card-title { font-size: 14pt; }
+    .card-title a {
+      line-height: 1.8em;
+      white-space: pre-wrap;
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 5px 1px 4px 7px;
+      color: #fff;
+    }
+    .card-content a.card-title { color: #000; font-weight: 500; }
+    .card-title a::after { content: ' '; }
+    #nav-mobile li { color: #bbb; padding-left: 30px; }
+
+    main #featured .col { padding-right: 0.75rem; }
+    main #featured .container .row, main #essential-food .container .row { margin-bottom: 0; }
+    main #essential-live, main #essential-food, main #essential-cover { padding-top: 0; }
+    main #essential-live .collection, main #essential-cover .collection, main #essential-food .collection { left: 2px; }
+    main #essential-food .collection .l3:nth-child(5), main #essential-cover .collection .l3:nth-child(5) { display: none; }
+
+  main #featured h2 { }
+  main section#map { }
+  main section#map .row:first-child .col:first-child, main section#map .row:first-child .col:last-child { padding: 20px 0; border:1px solid #ddd; }
+
+  main .col h6 { font-size: 9pt; font-weight: 400; color: #bbb; padding-left: 20px; line-height: 1.5em; }
+  main .collection, main .collection a.collection-item { border: none; }
+    main .collection a.collection-item { font-size: 9pt; color: #000; padding: 10px 15px; }
+}
+  main article {}
+
+footer, footer p { color: #fff; font-size: 9pt; line-height: 1.4rem; }
+  footer a { color: #000; }
+  footer a.title { color: #fff; }
+  footer.page-footer { margin: 0; background-color: #181818; padding-bottom: 10px; }
+  footer h4 { border-bottom: 1px solid #ddd; padding-bottom: 15px; margin-bottom: 15px; font-size: 11pt; }
+  footer h5 { margin-bottom: 15px; font-size: 10pt; }
+  footer ul li { display: inline-block; margin-bottom: 10px; }
+  footer .collection { border: none; }
+  footer .collection .collection-item { color: #000; margin-bottom: 3px; }
+  footer form .close { margin-top: 7px; }
+
+.card .card-image { overflow: hidden; width: 100%; height: 100%; }
+  .card .card-image img { width: inherit; }
+
+.ads.card { height: 335px; }
+  .ads.card .card-content { padding: 0; }
+
+  .entry ul.no-list li { list-style-type: none; }
+  .entry ul.no-list li .collapsible-header { font-weight: bold; }
+
+  .wpcf7-mail-sent-ok, .screen-reader-response {
+      font-weight: bold;
+      text-align: center;
+      border-width: 2px 0 2px 0;
+      border-style: solid;
+      padding: 10px 0;
+      margin: 50px 0;
+  }
+
+  #essential-food .card .card-image { height: 160px; }
+  #essential-cover .col:first-child .card .card-image { height: 360px; }
+  #essential-cover .thumbs-2 .card-image { height: 360px; }
+
+  #featured .featured-post { height: 445px; overflow: hidden; }
+  #featured .featured-post .card-image { max-height: 377px; height: 100%; }
+  #featured .latest-post aside { height: 185px; }
+  #featured .latest-post aside .card, #featured .latest-post aside .card .card-image { height: 100%; overflow: hidden; }
+  #featured figure a,
+  #featured .latest-post aside .card-image img,
+  #essential-food figure a,
+  #essential-cover figure a,
+  #essential-food figure a img { display: block; min-width: 100%; height: auto; min-height: 100%; }
+  #essential-cover .thumbs .card,
+  #essential-live aside .card { height: 173px; overflow: hidden; }
+  #essential-live .col:nth-child(3n+2) { padding: 0; }
+
+  section#connection .container { padding-top: 20px; border: 1px solid #000; border-width: 1px 0; }
+  section#connection form#mc-embedded-subscribe-form {
+    margin: 10px auto 0;
+    padding-left: 40px;
+    width: 100%;
+  }
+    section#connection button { margin-top: 25px; }
+    section#connection strong { color: #000; }
+    section#connection li { display: inline-block; margin: auto 10px; }
+      section#connection li a { color: #000; text-align: center; font-size: 10pt; padding: 10px; }
+        section#connection li .fa { font-size: 2.3em; margin-bottom: 10px; }
+
+.fixed-action-btn { right: 35px; bottom: 125px; }
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) { text-transform: none; color: #ddd; }
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover { color: #000; }
+
+@media only screen and (max-width : 1280px) and (min-width: 993px) {
+  header nav #logo-container {
+    background-position: 30px -49px;
+    margin-top: 12px;
+  }
+}
+@media only screen and (min-width: 993px){
+  .container { width: 90%; }
+}
+@media only screen and (max-width: 1200px){
+  .ads.card { max-height: 145px; }
+  #featured .latest-post .card figure a img { height: 100%; width: auto; }
+  #essential-food .card figure a img { height: auto; width: 100%; }
+  section#connection ul { margin-top: 30px; }
+  section#connection ul li a span { display: none; }
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section { position: absolute; top: 40%; }
+  #featured .section { top: 10%; }
+  #essential-food .card figure a img,
+  #essential-cover .col:nth-child(3) .card figure a img { height: 100%; width: auto; }
+  #essential-cover .card figure a img { width: 100%; height: auto; }
+  #essential-cover .card figure a img { width: 100%; height: auto; }
+}
+
+@media only screen and (max-width : 600px) {
+  #featured .section { top: 0; }
+
+  main #featured .s12.featured-post { padding: 0; }
+
+  .ads.card { max-height: 335px; }
+
+  #essential-cover .card figure a img,
+  #essential-food .card figure a img,
+  #essential-live .card figure a img,
+  #featured .latest-post .card figure a img { width: 100%; height: auto; min-height: 100%;  min-width: 100%; }
+
+  section .card figure,
+  #essential-cover .thumbs-2 .card figure.card-image { height: 175px; }
+  section .card figure a img,
+  #essential-cover .thumbs-2 .card figure.card-image a img { height: auto; }
+
+  #featured .featured-post { height: auto; }
+  section .row .col { padding-left: 0; padding-right: 0; }
+  main #featured .col,
+  #essential-cover .thumbs-2 { padding-left: 0.75rem; }
+  #essential-cover .thumbs-2 .row { padding-right: 0.75rem; }
+}
+
+::-webkit-input-placeholder { color:  #c3a36b; }
+:-moz-placeholder { color: #c3a36b; }
+::-moz-placeholder { color: #c3a36b; }
+:-ms-input-placeholder { color: #c3a36b; }
